@@ -1,14 +1,11 @@
-
-
 /*-- -------------------------- -->
 <---          Landing           -->
 <--- -------------------------- -*/
 
 @media only screen and (min-width: 0px) {
-
     #hero {
         height: auto;
-        background: url("/images/image-10.jpg");
+        background: url("../images/image-10.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -17,19 +14,19 @@
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         position: relative;
         padding-top: 50px;
         padding-bottom: 150px;
     }
-    
+
     #dark {
         position: absolute;
         background: #000;
@@ -37,22 +34,22 @@
         width: 100%;
         top: 0;
         left: 0;
-        opacity: .7;
+        opacity: 0.7;
         z-index: 0;
     }
-    
+
     .heroText {
         max-width: 400px;
         margin: auto;
         margin-top: 00px;
     }
-    
+
     .hero-content {
         width: 100%;
         position: relative;
         z-index: 1;
     }
-    
+
     #home-h {
         color: #fff;
         font-size: 1.7em;
@@ -61,14 +58,14 @@
         text-align: center;
         margin-bottom: 30px;
     }
-    
+
     .heroText h2 {
         color: #fff;
         font-size: 1em;
         font-weight: normal;
         text-align: center;
     }
-    
+
     #home-p {
         color: #fff;
         font-size: 1em;
@@ -77,7 +74,7 @@
         line-height: 1.6em;
         text-align: center;
     }
-    
+
     .heroText button {
         width: 100%;
         height: 55px;
@@ -86,13 +83,13 @@
         margin-right: auto;
         display: block;
     }
-    
+
     .heroText a {
         display: block;
         width: 200px;
         margin: auto;
     }
-    
+
     .heroText .button-solid {
         margin-bottom: 10px;
     }
@@ -103,7 +100,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-
     .heroText {
         margin-top: 100px;
         max-width: 570px;
@@ -164,7 +160,6 @@
 }
 
 @media only screen and (min-width: 1300px) {
-
     #hero .container {
         max-width: 1200px;
     }
